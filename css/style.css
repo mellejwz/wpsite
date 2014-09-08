@@ -1,0 +1,40 @@
+body{
+	
+}
+
+#test{
+	width: 240px;
+	background-color: black;
+}
+
+#display{
+	width: 248px;
+	height: 390px;
+	padding-left: 10px;
+	padding-top: 10px;
+	overflow: auto;
+}
+
+.wide{
+	width: 215px;
+	height: 105px;
+	margin: 3px;
+	float: left;
+	background-color: red;
+}
+
+.medium{
+	width: 105px;
+	height: 105px;
+	margin: 3px;
+	float: left;
+	background-color: red;
+}
+
+.small{
+	width: 50px;
+	height: 50px;
+	margin: 3px;
+	float: left;
+	background-color: red;
+}
