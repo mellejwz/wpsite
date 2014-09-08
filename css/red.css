@@ -1,27 +1,31 @@
 body{
 	
 }
-#test{
-	
-	overflow: scroll;
+#display{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 378px;
+	height: 585px;
+	margin: 50px auto;
+	background-color: black;
+	position: relative;
 }
 
-#display{
-	width: 366px;
-	height: 585px;
+#tiles{
+	width: 350px;
 	padding-left: 10px;
 	padding-top: 10px;
-	float: left;
-	background-color: black;
+	position: absolute;
+	left: 0px;
 }
 
 #apps{
-	width: 250px;
-	height: 585px;
-	padding-left: 10px;
+	width: 350px;
+	padding-right: 10px;
 	padding-top: 10px;
-	overflow: auto;
 	background-color: blue;
+	position: absolute;
+	left: 370px;
 }
 
 .wide{
@@ -48,9 +52,16 @@ body{
 	background-color: red;
 }
 
+#banner{
+	width: 350px;
+	height: 43px;
+}
+
 .arrow{
 	background-image: url('../assets/apps.png');
-	width: 40px;
-	height: 40px;
-	float: right;
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	right: 5px;
+	bottom: -43px;
 }
