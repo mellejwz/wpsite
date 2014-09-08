@@ -1,31 +1,35 @@
 body{
 	
 }
+#phone{
+	height: 800px;
+	margin: 50px auto;
+	background-image: url('../assets/background.jpg');
+}
 #display{
 	overflow-y: scroll;
 	overflow-x: hidden;
 	width: 378px;
-	height: 585px;
-	margin: 50px auto;
+	height: 603px;
 	background-color: black;
 	position: relative;
+	top: 96px;
+	left: 33px;
 }
 
 #tiles{
 	width: 350px;
 	padding-left: 10px;
-	padding-top: 10px;
+	padding-top: 20px;
 	position: absolute;
-	left: 0px;
 }
 
 #apps{
 	width: 350px;
-	padding-right: 10px;
-	padding-top: 10px;
-	background-color: blue;
+	padding-left: 10px;
+	padding-top: 20px;
 	position: absolute;
-	left: 370px;
+	left: 360px;
 }
 
 .wide{
@@ -52,16 +56,19 @@ body{
 	background-color: red;
 }
 
-#banner{
-	width: 350px;
-	height: 43px;
+.app{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	float: left;
 }
 
 .arrow{
 	background-image: url('../assets/apps.png');
 	width: 43px;
 	height: 43px;
+	float: right;
 	position: absolute;
-	right: 5px;
-	bottom: -43px;
+	bottom: -50px;
+	left: 300px;
 }
