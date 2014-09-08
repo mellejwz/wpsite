@@ -2,8 +2,10 @@ body{
 	
 }
 #phone{
-	height: 800px;
-	margin: 50px auto;
+	width: 430px;
+	height: 818px;
+	margin: 0px auto;
+	position: relative;
 	background-image: url('../assets/background.jpg');
 }
 #display{
@@ -13,7 +15,7 @@ body{
 	height: 603px;
 	background-color: black;
 	position: relative;
-	top: 96px;
+	top: 92px;
 	left: 33px;
 }
 
@@ -30,6 +32,7 @@ body{
 	padding-top: 20px;
 	position: absolute;
 	left: 360px;
+	color: white;
 }
 
 .wide{
@@ -57,18 +60,47 @@ body{
 }
 
 .app{
+	height: 60px;
+	width: 330px;
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.app p{
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+.appicon{
 	width: 60px;
 	height: 60px;
-	margin: 5px;
+	margin-right: 10px;
+	background-color: red;
 	float: left;
 }
 
 .arrow{
 	background-image: url('../assets/apps.png');
-	width: 43px;
-	height: 43px;
+	width: 40px;
+	height: 40px;
 	float: right;
 	position: absolute;
 	bottom: -50px;
 	left: 300px;
+}
+
+#navbar{
+	width: 360px;
+	height: 45px;
+	position: absolute;
+	left: 34px;
+	bottom: 55px;
+}
+
+#backbutton{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	left: 13px;
 }
