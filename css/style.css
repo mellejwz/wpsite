@@ -1,40 +1,56 @@
 body{
 	
 }
-
 #test{
-	width: 240px;
-	background-color: black;
+	
+	overflow: scroll;
 }
 
 #display{
-	width: 248px;
-	height: 390px;
+	width: 366px;
+	height: 585px;
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	background-color: black;
+}
+
+#apps{
+	width: 250px;
+	height: 585px;
 	padding-left: 10px;
 	padding-top: 10px;
 	overflow: auto;
+	background-color: blue;
 }
 
 .wide{
-	width: 215px;
-	height: 105px;
-	margin: 3px;
+	width:330px;
+	height: 160px;
+	margin: 5px;
 	float: left;
 	background-color: red;
 }
 
 .medium{
-	width: 105px;
-	height: 105px;
-	margin: 3px;
+	width: 160px;
+	height: 160px;
+	margin: 5px;
 	float: left;
 	background-color: red;
 }
 
 .small{
-	width: 50px;
-	height: 50px;
-	margin: 3px;
+	width: 75px;
+	height: 75px;
+	margin: 5px;
 	float: left;
 	background-color: red;
+}
+
+.arrow{
+	background-image: url('../assets/apps.png');
+	width: 40px;
+	height: 40px;
+	float: right;
 }
